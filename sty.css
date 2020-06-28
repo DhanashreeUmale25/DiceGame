@@ -1,0 +1,9 @@
+.blink {
+    -webkit-animation: blink 1s step-end infinite;
+            animation: blink 1s step-end infinite;
+            background-color:rgb(87, 236, 87);
+}
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+        @keyframes blink { 50% { visibility: hidden; }}
+
+
